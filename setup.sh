@@ -29,17 +29,17 @@ setup_directories() {
         print_colored "$GREEN" "linuxtoolbox directory created: $LINUXTOOLBOXDIR"
     fi
 
-    if [ -d "$LINUXTOOLBOXDIR/mybash" ]; then rm -rf "$LINUXTOOLBOXDIR/mybash"; fi
+    if [ -d "$LINUXTOOLBOXDIR/obash" ]; then rm -rf "$LINUXTOOLBOXDIR/obash"; fi
 
-    print_colored "$YELLOW" "Cloning mybash repository into: $LINUXTOOLBOXDIR/mybash"
-    if git clone https://github.com/ChrisTitusTech/mybash "$LINUXTOOLBOXDIR/mybash"; then
-        print_colored "$GREEN" "Successfully cloned mybash repository"
+    print_colored "$YELLOW" "Cloning obash repository into: $LINUXTOOLBOXDIR/obash"
+    if git clone https://github.com/ajemery/obash "$LINUXTOOLBOXDIR/obash"; then
+        print_colored "$GREEN" "Successfully cloned obash repository"
     else
-        print_colored "$RED" "Failed to clone mybash repository"
+        print_colored "$RED" "Failed to clone obash repository"
         exit 1
     fi
 
-    cd "$LINUXTOOLBOXDIR/mybash" || exit
+    cd "$LINUXTOOLBOXDIR/obash" || exit
 }
 
 check_environment() {
