@@ -29,7 +29,7 @@ cd obash
 
 The `setup.sh` script automates the installation process by:
 
-- Creating necessary directories (`linuxtoolbox/mybash`)
+- Creating necessary directories (`obash`)
 - Cloning the repository
 - Installing dependencies (bash-completion, neovim, starship, fzf, zoxide)
 - Installing the MesloLGS Nerd Font required for the prompt
@@ -43,7 +43,7 @@ Ensure you have the required permissions and a supported package manager before 
 To uninstall the `.bashrc` configuration, run:
 
 ```sh
-cd mybash
+cd obash
 chmod +x uninstall.sh
 ./uninstall.sh
 ```
@@ -53,7 +53,6 @@ The `uninstall.sh` script reverses the installation process by:
 - Removing installed dependencies
 - Uninstalling fonts
 - Removing symbolic links to configuration files
-- Deleting the `linuxtoolbox` directory
 - Cleaning up additional utilities like `starship`, `fzf`, and `zoxide`
 
 After running the script, it's recommended to restart your shell to apply the changes.
