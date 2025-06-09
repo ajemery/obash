@@ -1,8 +1,8 @@
-# ChrisTitusTech's `.bashrc` Configuration
+# OBash - An Oracle Linux Themed `.bashrc` Configuration
 
 ## Overview
 
-This repository provides a comprehensive `.bashrc` configuration along with supporting scripts and configuration files to enhance your terminal experience in Unix-like operating systems. It configures the shell session by setting up aliases, defining functions, customizing the prompt, and more, significantly improving the terminal's usability and power.
+This repository provides a comprehensive `.bashrc` configuration along with supporting scripts and configuration files to enhance your terminal experience in Unix-like operating systems. It configures the shell session by setting up aliases, defining functions, customizing the prompt, and more, significantly improving the terminal's usability and power. This was forked from Chris Titus's MyBash Profile as a base.
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ This repository provides a comprehensive `.bashrc` configuration along with supp
 To install the `.bashrc` configuration, execute the following commands in your terminal:
 
 ```sh
-git clone --depth=1 https://github.com/dacrab/mybash.git
+git clone --depth=1 https://github.com/ajemery/obash.git
 cd mybash
 ./setup.sh
 ```
