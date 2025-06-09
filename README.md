@@ -23,7 +23,7 @@ To install the `.bashrc` configuration, execute the following commands in your t
 
 ```sh
 git clone --depth=1 https://github.com/ajemery/obash.git
-cd mybash
+cd obash
 ./setup.sh
 ```
 
